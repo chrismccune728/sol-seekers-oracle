@@ -13,20 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Soul Seekers: Door Knockers Oracle',
-  description: 'Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.',
+  title: "Sol Seekers: Door Knockers Oracle",
+  description: "Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.",
   openGraph: {
-    title: 'Soul Seekers: Door Knockers Oracle',
-    description: 'Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.',
+    title: "Sol Seekers: Door Knockers Oracle",
+    description: "Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.",
     images: [
       {
-        url: '/solseeker.png',
-        width: 600,
-        height: 600,
-        alt: 'Sol Seeker Logo',
-      }
+        url: "/solseeker.png",
+        width: 1200,
+        height: 630,
+        alt: "Sol Seekers Logo",
+      },
     ],
   },
+};
+
   twitter: {
     card: 'summary_large_image',
     title: 'Soul Seekers: Door Knockers Oracle',
