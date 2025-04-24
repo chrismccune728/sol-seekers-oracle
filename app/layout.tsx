@@ -29,12 +29,12 @@ export const metadata: Metadata = {
   },
 };
 
-     twitter: {
-      card: 'summary_large_image',
-      title: 'Sol Seekers: Door Knockers Oracle',
-      description: 'Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.',
-      images: ['/solseeker.png'],
-    }
+twitter: {
+  card: 'summary_large_image',
+  title: 'Sol Seekers: Door Knockers Oracle',
+  description: 'Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.',
+  images: ['/solseeker.png'],
+}
 
 
 export default function RootLayout({
