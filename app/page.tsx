@@ -64,7 +64,7 @@ export default function Home() {
           🌞 Sol Seekers: Door Knocker’s Oracle
         </h1>
 
-        <p className="mt-2 text-lg md:text-xl text-gray-700 max-w-xl">
+       <p className="mt-2 text-lg md:text-xl text-gray-700 max-w-xl">
           Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.
         </p>
 
