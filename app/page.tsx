@@ -41,7 +41,7 @@ export default function Home() {
           property="og:description"
           content="Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy."
         />
-        <meta property="og:image" content="/solseeker.png" />
+       <meta property="og:image" content="https://sol-seekers-oracle.vercel.app/solseeker.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Sol Seekers: Door Knockers Oracle" />
         <meta
