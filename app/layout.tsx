@@ -14,34 +14,28 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sol Seekers: Door Knockers Oracle",
-  description: "Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.",
+  description:
+    "Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.",
   openGraph: {
     title: "Sol Seekers: Door Knockers Oracle",
-    description: "Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.",
-    images: [
-      {
-        url: "/solseeker.png",
-        width: 1200,
-        height: 630,
-        alt: "Sol Seekers Logo",
-      },
-    ],
+    description:
+      "Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.",
+    images: ["/solseeker.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sol Seekers: Door Knockers Oracle",
+    description:
+      "Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.",
+    images: ["/solseeker.png"],
   },
 };
 
-twitter: {
-  card: 'summary_large_image',
-  title: 'Sol Seekers: Door Knockers Oracle',
-  description: 'Find out where your next boom will be. Discover what you need to do to unlock your solar prophecy.',
-  images: ['/solseeker.png'],
-}
-
-
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body
